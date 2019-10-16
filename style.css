@@ -1,0 +1,18 @@
+.info {
+  border: 2px solid orange;
+  background: cornsilk;
+  padding: 7px;
+  box-shadow: 2px 3px 5px grey;
+}
+
+.info p {
+  margin: 0;
+}
+
+.abbr:after, .glos:after {
+  content: '?';
+  vertical-align: super;
+  font-size: 0.7em;
+  color: gray;
+  text-decoration: none;
+}
